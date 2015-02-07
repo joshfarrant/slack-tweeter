@@ -16,3 +16,9 @@ Also, you will need to create a config.json file in the following format.
   "disallowedUsers" : [] // Array of usernames
 }
 ```
+
+To run, simply run the following.
+
+```
+node app.js
+```
