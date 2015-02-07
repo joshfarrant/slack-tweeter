@@ -65,7 +65,7 @@ app.use( bodyParser.urlencoded({ extended: false }) );
 
 app.post('/', function(req, res) {
 
-  var message = parseRequest(req);
+  var message = parseRequest(req.body);
 
   // This is Slack we're dealing with, everything has to return a 200
   res.statusCode = 200;
