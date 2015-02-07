@@ -1,0 +1,25 @@
+{
+  "name": "slack-tweeter",
+  "version": "1.0.0",
+  "description": "Send tweets from Slack with slash commands",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshfarrant/slack-tweeter.git"
+  },
+  "author": "Josh Farrant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshfarrant/slack-tweeter/issues"
+  },
+  "homepage": "https://github.com/joshfarrant/slack-tweeter",
+  "dependencies": {
+    "body-parser": "^1.11.0",
+    "express": "^4.11.2",
+    "fs": "0.0.2",
+    "moment": "^2.9.0"
+  }
+}
